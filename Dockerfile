@@ -23,7 +23,7 @@ RUN yum makecache fast \
       sudo \
       which \
       python-pip \
-      docker  \
+#      docker  \
       gcc \
       python-devel \
  && yum clean all
